@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.box {
+  background-color: crimson;
+  height: 80vh;
+}
+
+@media screen and (min-width: 600px) {
+  .box {
+    width: 80% !important;
+    border-radius: 20px;
+  }
+}
+
+ul li {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li span {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+}
+
+ul li.active {
+  background-color: lightgreen;
+}
