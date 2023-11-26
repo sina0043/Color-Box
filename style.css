@@ -9,12 +9,12 @@ body {
 .box {
   background-color: crimson;
   height: 80vh;
+  border-radius: 20px;
 }
 
 @media screen and (min-width: 600px) {
   .box {
     width: 80% !important;
-    border-radius: 20px;
   }
 }
 
